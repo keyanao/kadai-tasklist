@@ -48,6 +48,9 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'kaminari'
+  group :production do
+  gem 'pg', '0.21.0'
+  end
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
